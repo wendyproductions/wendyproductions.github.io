@@ -1,2 +1,4 @@
 # wendyproductions.github.io
-Personal portfolio website.
+Welcome to my personal portfolio website!
+
+Designed & Developed by Nadya Kadayifci (GitHub: @nadkad)
