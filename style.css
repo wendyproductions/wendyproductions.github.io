@@ -259,6 +259,7 @@ ul {
   height: auto;
   position: relative;
   float: right;
+  border: 2px solid black;
 }
 #featured-photos {
   display: flex;
