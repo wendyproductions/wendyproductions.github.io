@@ -24,15 +24,24 @@ body {
 .main-carousel {
   position: absolute;
   left: 0%;
-  width: 100%;
+  width: 100vw;
+  height: auto;
+  background-color: black;
 }
 .carousel-cell {
+  position: relative;
   width: 100%;
+  height: auto;
+}
+.flickity-page-dots {
+  bottom: 0;
+  background-color: blue;
 }
 .cell-container {
   width: 60%;
-  height: 60%;
   margin: 0 auto;
+  left: 50%;
+  height: 100%;
 }
 
 .banner-images img {
@@ -115,7 +124,6 @@ blockquote {
   padding-top: 35px;
   text-align: center;
 }
-Q { quotes: ‘„’ ‘“’; }
 .mb-4 {
   position: relative;
   overflow: hidden;
@@ -246,6 +254,10 @@ ul {
   padding-top: 70px;
   padding-bottom: 50px;
   margin: 0 auto;
+}
+
+video {
+  width: 500px;
 }
 
 .arrow-container {
