@@ -24,24 +24,22 @@ body {
 .main-carousel {
   position: absolute;
   left: 0%;
-  width: 100vw;
-  height: auto;
-  background-color: black;
+  width: 100%;
+  height: 80%;
 }
 .carousel-cell {
   position: relative;
-  width: 100%;
   height: auto;
+  width: 100%;
 }
 .flickity-page-dots {
-  bottom: 0;
-  background-color: blue;
+  bottom: 25px;
 }
 .cell-container {
   width: 60%;
-  margin: 0 auto;
   left: 50%;
-  height: 100%;
+  margin: 0 auto;
+  height: auto;
 }
 
 .banner-images img {
@@ -118,7 +116,7 @@ blockquote {
   line-height: 1em;
   vertical-align: middle;
 }
-.header {
+#contact .header {
   width: 100%;
   height: 20%;
   padding-top: 35px;
@@ -243,7 +241,6 @@ ul {
 }
 
 .content-container {
-  position: relative;
   width: 100%;
   min-height: 100%;
   height: auto;
@@ -251,15 +248,20 @@ ul {
 .content {
   width: 60%;
   height: auto;
-  padding-top: 70px;
+  padding-top: 60px;
   padding-bottom: 50px;
   margin: 0 auto;
 }
-
-video {
-  width: 500px;
+iframe {
+  height: 60%;
+  width: 75%;
 }
-
+#media .content {
+  height: 100%;
+}
+.header {
+  height: 15%;
+}
 .arrow-container {
   position: relative;
   margin: 0 auto;
