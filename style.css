@@ -3,6 +3,7 @@
   --blue-o: rgb(0, 102, 255);
   --blue-links: rgb(66, 134, 244);
 }
+/* fixes slick crashing issue on mobile/ipad */ 
 .slick-track,
 .slick-slide,
 .slick-slide img {
