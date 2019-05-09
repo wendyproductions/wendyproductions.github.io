@@ -3,8 +3,18 @@
   --blue-o: rgb(0, 102, 255);
   --blue-links: rgb(66, 134, 244);
 }
-div.slick-slider { width: 1px; min-width: 100%; *width: 100%; }
-
+.slick-track,
+.slick-slide,
+.slick-slide img {
+    transform: translate3d(0, 0, 0);
+}
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
 
 html {
   scroll-behavior: smooth;
