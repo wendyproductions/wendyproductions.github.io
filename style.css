@@ -64,7 +64,7 @@ body {
   filter: blur(0px);
 }
 #intro {
-  background: url('images/slideshow/Slideshow3.jpg');
+  background-color: black;
 }
 
 .intro-content {
