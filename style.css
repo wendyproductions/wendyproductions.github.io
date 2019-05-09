@@ -234,9 +234,9 @@ cite span {
 .right-content .mb-4 {
   width: 70%;
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -70%);
+  transform: translate(-50%, -50%);
 }
 .btn {
   opacity: inherit;
